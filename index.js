@@ -14,7 +14,7 @@ for(var i = 0; i < pronoun.length; i++){
      }
 }
 
-document.getElementById("domain").innerHTML = combos;
+document.getElementById("domain").innerHTML = "<p>" + combos.join("</p><p>") + "</p>";
 
 };
 console.log(generateDomain(document.getElementById("domain").innerHTML));
